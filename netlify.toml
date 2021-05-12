@@ -2,3 +2,9 @@
 command = "npm run build"
 functions = "functions"
 publish = "build"
+
+[template.environment]
+ASTRA_DB_APPLICATION_TOKEN = "Database Administrator token from Organization settings"
+ASTRA_DB_ID = "Cluster ID from your database dashboard"
+ASTRA_DB_REGION = "Region from your database dashboard"
+ASTRA_DB_KEYSPACE = "Keyspace from your database dashboard"
